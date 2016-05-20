@@ -1,0 +1,31 @@
+#outline {
+  /*display: flex;*/
+  margin: 100px auto;
+  border: 5px solid black;
+
+}
+img.icon {
+
+}
+
+#iconid {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+p {
+  display: inline;
+}
+
+p.directions {
+  display: block;
+}
+
+#icon-space {
+  margin-left: 10px;
+}
+
+#heading {
+  display: inline;
+  width: 250px;
+}
