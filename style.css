@@ -1,7 +1,7 @@
 #outline {
   /*display: flex;*/
   margin: 100px auto;
-  border: 5px solid black;
+  /*border: 5px solid black;*/
 
 }
 img.icon {
@@ -55,7 +55,28 @@ p.directions{
 
 #recipe {
   background-image: url("assets/list-bg.png");
+  height: 228px;
+
 }
-li {
+ul {
+  display: inline-block;
+  column-count: 2;
+}
+
+li{
+  margin-left: 45px;
+  width: 240px;
+  padding: 4.5px;
+}
+#author {
+  width:650px;
+  display: inline-block;
+
+
+}
+
+button{
+  display: inline;
+  float: right;
 
 }
